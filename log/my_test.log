@@ -1,0 +1,36 @@
+INFO     [TestCase]  2022-05-31 17:20:30,857: ~~ 
+
+INFO     [TestCase]  2022-05-31 17:20:30,857: 开始执行测试用例了 (TestCase: test_interface.test_log.TestCase.test_error)
+INFO     [TestCase]  2022-05-31 17:20:30,858: 测试用例执行结束了 (TestCase: test_interface.test_log.TestCase.test_error)
+ERROR    [TestCase]  2022-05-31 17:20:30,858: 测试出错 (TestCase: test_interface.test_log.TestCase.test_error)
+ERROR    [TestCase]  2022-05-31 17:20:30,858: Traceback (most recent call last):
+  File "/Users/lianyanju/PycharmProjects/pythonStart/test_interface/test_log.py", line 75, in test_error
+    var = 1 / 0
+ZeroDivisionError: division by zero
+)
+INFO     [TestCase]  2022-05-31 17:20:30,858: ~~ 
+
+INFO     [TestCase]  2022-05-31 17:20:30,858: 开始执行测试用例了 (TestCase: test_interface.test_log.TestCase.test_fail)
+INFO     [TestCase]  2022-05-31 17:20:30,859: 测试用例执行结束了 (TestCase: test_interface.test_log.TestCase.test_fail)
+WARNING  [TestCase]  2022-05-31 17:20:30,859: 测试失败 (TestCase: test_interface.test_log.TestCase.test_fail)
+WARNING  [TestCase]  2022-05-31 17:20:30,859: Traceback (most recent call last):
+  File "/Users/lianyanju/PycharmProjects/pythonStart/test_interface/test_log.py", line 72, in test_fail
+    self.fail()
+AssertionError: None
+)
+INFO     [TestCase]  2022-05-31 17:20:30,859: ~~ 
+
+INFO     [TestCase]  2022-05-31 17:20:30,859: 开始执行测试用例了 (TestCase: test_interface.test_log.TestCase.test_pass)
+INFO     [TestCase]  2022-05-31 17:20:30,859: 你好  我是  艳举
+INFO     [TestCase]  2022-05-31 17:20:30,859: 测试用例执行结束了 (TestCase: test_interface.test_log.TestCase.test_pass)
+INFO     [TestCase]  2022-05-31 17:20:30,859: 测试通过 (TestCase: test_interface.test_log.TestCase.test_pass)
+INFO     [TestCase]  2022-05-31 17:20:30,859: ~~ 
+
+INFO     [TestCase]  2022-05-31 17:20:30,859: 开始执行测试用例了 (TestCase: test_interface.test_log.TestCase.test_skip)
+INFO     [TestCase]  2022-05-31 17:20:30,859: 测试用例执行结束了 (TestCase: test_interface.test_log.TestCase.test_skip)
+INFO     [TestCase]  2022-05-31 17:20:30,859: 测试通过 (TestCase: test_interface.test_log.TestCase.test_skip)
+INFO     [TestCase]  2022-05-31 17:20:30,859: ~~ 
+
+INFO     [TestCase]  2022-05-31 17:20:30,859: 开始执行测试用例了 (TestCase: test_interface.test_log.TestCase.test_xfail)
+INFO     [TestCase]  2022-05-31 17:20:30,860: 测试用例执行结束了 (TestCase: test_interface.test_log.TestCase.test_xfail)
+INFO     [TestCase]  2022-05-31 17:20:30,860: 测试通过 (TestCase: test_interface.test_log.TestCase.test_xfail)
